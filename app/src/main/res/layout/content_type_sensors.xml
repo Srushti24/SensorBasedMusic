@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".type_sensors"
+    tools:showIn="@layout/activity_type_sensors">
+
+    <LinearLayout
+        android:id="@+id/prox_btn"
+        android:layout_width="409dp"
+        android:layout_height="673dp"
+        android:background="@drawable/bg4"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-51dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="498dp"
+            android:layout_height="257dp"
+            android:background="@android:color/transparent"
+            android:text="Proximity_Light"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="450dp"
+            android:layout_height="330dp"
+            android:background="@android:color/transparent"
+            android:text="Accelerometer"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"></LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

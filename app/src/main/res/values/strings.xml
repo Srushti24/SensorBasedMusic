@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <string name="back"><![CDATA[<]]></string>
+    <string name="rewind"><![CDATA[<<]]></string>
+    <string name="forward"><![CDATA[>>]]></string>
+    <string name="pause">||</string>
+    <string name="title_activity_next">next</string>
+    <string name="title_activity_select">select</string>
+    <string name="title_activity_proximity_light">proximity_light</string>
+    <string name="title_activity_accelerometer">accelerometer</string>
+    <string name="title_activity_type_sensors">type_sensors</string>
+    <string name="title_activity_normal_musicapp">Normal_musicapp</string>
+</resources>

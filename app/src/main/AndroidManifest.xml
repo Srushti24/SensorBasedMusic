@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sairamkrishna.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.tutorials_point.Normal_musicapp"
+            android:label="@string/title_activity_normal_musicapp"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name="com.example.tutorials_point.type_sensors"
+            android:label="@string/title_activity_type_sensors"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.tutorials_point.accelerometer"
+            android:label="@string/title_activity_accelerometer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.tutorials_point.proximity_light"
+            android:label="@string/title_activity_proximity_light"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.tutorials_point.select"
+            android:label="@string/title_activity_select"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.tutorials_point.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

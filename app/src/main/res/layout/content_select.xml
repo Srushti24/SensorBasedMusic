@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".select"
+    tools:showIn="@layout/activity_select">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="673dp"
+        android:background="@drawable/bg3"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="252dp"
+            android:background="@android:color/transparent"
+            android:text="Music Player"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/holo_green_light"
+            android:textColorHighlight="@android:color/holo_green_light"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/prox_btn"
+            android:layout_width="match_parent"
+            android:layout_height="288dp"
+            android:background="@android:color/transparent"
+            android:text="Sensor Based Music"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="30sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
